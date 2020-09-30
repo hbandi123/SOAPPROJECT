@@ -1,0 +1,114 @@
+2020-09-30 18:24:04,507 WARN  [SoapUI] Missing folder [C:\Users\SunithaSulake\Desktop\SOAP Project Harikrishna\my-app\ext] for external libraries
+2020-09-30 18:24:05,074 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SunithaSulake\soapui-settings.xml]
+2020-09-30 18:24:07,114 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SunithaSulake/Desktop/SOAP%20Project%20Harikrishna/my-app/Soap-Project-Harikrishna-Assignment1-soapui-project.xml]
+2020-09-30 18:24:07,864 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Soap Project Assignment1]
+2020-09-30 18:24:07,866 INFO  [SoapUITestCaseRunner] Running Project [Soap Project Assignment1], runType = SEQUENTIAL
+2020-09-30 18:24:07,886 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Property And Property Transfer]
+2020-09-30 18:24:07,915 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-30 18:24:07,979 INFO  [SoapUITestCaseRunner] running step [Property Transfer for Save]
+2020-09-30 18:24:08,345 INFO  [SoapUITestCaseRunner] running step [Save Customer]
+2020-09-30 18:24:12,534 INFO  [log] 
+2020-09-30 18:24:12,689 INFO  [log] 
+2020-09-30 18:24:12,697 INFO  [log] 
+2020-09-30 18:24:12,701 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:24:12,702 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:24:12,703 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion 1] has status VALID
+2020-09-30 18:24:12,707 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion 3] has status VALID
+2020-09-30 18:24:12,709 INFO  [SoapUITestCaseRunner] running step [Property Transfer for Get]
+2020-09-30 18:24:12,721 INFO  [SoapUITestCaseRunner] running step [Get Customer]
+2020-09-30 18:24:17,397 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:24:17,398 INFO  [SoapUITestCaseRunner] running step [Property Transfer for Delete]
+2020-09-30 18:24:17,404 INFO  [SoapUITestCaseRunner] running step [Delete Customer]
+2020-09-30 18:24:18,031 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:24:18,033 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Property And Property Transfer], time taken: 10081ms, status: FINISHED
+2020-09-30 18:24:18,041 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Property Expansion]
+2020-09-30 18:24:18,042 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-30 18:24:18,043 INFO  [SoapUITestCaseRunner] running step [Save Customer]
+2020-09-30 18:24:18,810 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:24:18,811 INFO  [SoapUITestCaseRunner] running step [Get Customer]
+2020-09-30 18:24:19,728 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:24:19,729 INFO  [SoapUITestCaseRunner] running step [Delete Customer]
+2020-09-30 18:24:53,411 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:24:53,411 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Property Expansion], time taken: 35362ms, status: FINISHED
+2020-09-30 18:24:53,416 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Property And Groovy Script]
+2020-09-30 18:24:53,417 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-30 18:24:53,417 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2020-09-30 18:24:57,091 INFO  [log] 
+2020-09-30 18:24:57,093 INFO  [log] 
+2020-09-30 18:24:57,096 INFO  [log] 
+2020-09-30 18:24:57,100 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">A customer with the same email address already exists in an associated website.</env:Text>
+         </env:Reason>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-09-30 18:24:57,148 INFO  [log] saveCustomerId null
+2020-09-30 18:24:58,470 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:m="http%3A%2F%2Fsoap.upskills.in%2Fsoap%2Fdefault%3Fservices%3DcustomerCustomerRepositoryV1%26wsdl%3D1">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">"%fieldName" is required. Enter and try again.</env:Text>
+         </env:Reason>
+         <env:Detail>
+            <m:GenericFault>
+               <m:Parameters>
+                  <m:GenericFaultParameter>
+                     <m:key>fieldName</m:key>
+                     <m:value>customerId</m:value>
+                  </m:GenericFaultParameter>
+               </m:Parameters>
+            </m:GenericFault>
+         </env:Detail>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-09-30 18:24:58,501 INFO  [log] getCustomerId null
+2020-09-30 18:24:59,131 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:m="http%3A%2F%2Fsoap.upskills.in%2Fsoap%2Fdefault%3Fservices%3DcustomerCustomerRepositoryV1%26wsdl%3D1">
+   <env:Body>
+      <env:Fault>
+         <env:Code>
+            <env:Value>env:Sender</env:Value>
+         </env:Code>
+         <env:Reason>
+            <env:Text xml:lang="en">"%fieldName" is required. Enter and try again.</env:Text>
+         </env:Reason>
+         <env:Detail>
+            <m:GenericFault>
+               <m:Parameters>
+                  <m:GenericFaultParameter>
+                     <m:key>fieldName</m:key>
+                     <m:value>customerId</m:value>
+                  </m:GenericFaultParameter>
+               </m:Parameters>
+            </m:GenericFault>
+         </env:Detail>
+      </env:Fault>
+   </env:Body>
+</env:Envelope>
+2020-09-30 18:24:59,177 INFO  [log] deleteCustomerId null
+2020-09-30 18:24:59,270 INFO  [log] Properties : OK
+2020-09-30 18:24:59,303 INFO  [log] Groovy Script : OK
+2020-09-30 18:24:59,327 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Property And Groovy Script], time taken: 5758ms, status: FINISHED
+2020-09-30 18:24:59,357 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Script Assertion Test Case]
+2020-09-30 18:24:59,375 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-09-30 18:24:59,379 INFO  [SoapUITestCaseRunner] running step [Save Customer]
+2020-09-30 18:25:00,862 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:25:00,864 INFO  [SoapUITestCaseRunner] running step [Customer List]
+2020-09-30 18:25:20,264 INFO  [log] 168
+2020-09-30 18:25:20,272 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:25:20,280 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:25:20,282 INFO  [SoapUITestCaseRunner] running step [Get Customer]
+2020-09-30 18:25:21,109 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:25:21,109 INFO  [SoapUITestCaseRunner] running step [Delete Customer]
+2020-09-30 18:25:22,131 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-09-30 18:25:22,131 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Script Assertion Test Case], time taken: 22725ms, status: FINISHED
+2020-09-30 18:25:22,132 INFO  [SoapUITestCaseRunner] Project [Soap Project Assignment1] finished with status [FINISHED] in 74259ms
